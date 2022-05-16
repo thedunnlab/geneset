@@ -1,4 +1,4 @@
-# READ ME
+# README
 Documentation for the paper "Examining the epigenetic mechanisms of childhood adversity and sensitive periods:
 a gene set-based approach"
 - Author: 	Yiwen Zhu
