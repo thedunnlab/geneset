@@ -24,7 +24,8 @@ load("data/2021-03-26_senspgenes-betas-promoter-resid-FEM.Rdata")
 advers <- c("abuse", "Fscore",  "oneadult", 
             "r_faminst", "nbhqual","parc","mompsy")
 
-
+## the full list of genes, Entrez IDs, and corresponding CpGs are available in 
+## Supplementary Table 1
 senspgenes_group <- read_excel("data/sensitive_period_genes.xlsx") %>% 
   dplyr::select(gene = NCBI.Gene.ID, group = `Functional group for analysis`)
 
