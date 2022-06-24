@@ -8,6 +8,8 @@
 ##  And create Figure 2 (% variation explained by the first two PCs)
 ## Input files: 
 ##  list of sensitive period genes: "data/Animal Model Genes-2019-07-11.xlsx"
+##  the full list of genes, Entrez IDs, and corresponding CpGs are available in 
+##  Supplementary Table 1
 ##  winsorized DNAm data at age 7: [file path for DNAm data]
 
 ## Output files:
@@ -29,6 +31,8 @@ library(ggpubr)
 library(FEM)
 
 ## load list of sensitive period genes
+## the full list of genes, Entrez IDs, and corresponding CpGs are available in 
+## Supplementary Table 1
 ## updated list and grouping 
 ## contains the following columns: gene, EntrezID, NCBI gene name, group/gene set
 senspgenes <- read_excel("data/sensitive_period_genes.xlsx")
