@@ -39,6 +39,8 @@ df <- aries[, 1:102] ## phenotype data only
 rm(aries)
 
 ## list of sensitive period genes
+## the full list of genes, Entrez IDs, and corresponding CpGs are available in 
+## Supplementary Table 1
 senspgenes <- read_excel("data/sensitive_period_genes.xlsx")
 ## merging the PCs
 df <- cbind(df, genes_PCs_unstd)
