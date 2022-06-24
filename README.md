@@ -4,6 +4,8 @@ a gene set-based approach"
 - Author: 	Yiwen Zhu
 - Last updated:	June 24, 2022
 
+A full list of genes, gene sets, Entrez IDs, and corresponding CpGs are available in Supplementary Table 1. 
+
 In this folder, you can find the following information regarding our manuscript. 
 ## Main analysis scripts
 - `01_main-analysis-PCA.R`: main analysis script 1, principal component analysis
